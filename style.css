@@ -1,0 +1,33 @@
+h1{
+    color: darkblue;
+    text-align: center;
+}
+header {
+    display: block;
+}
+
+
+nav{
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+
+li
+{
+    display:inline;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1541447237128-f4cac6138fbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=369&q=80);
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
