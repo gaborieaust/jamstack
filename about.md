@@ -5,7 +5,7 @@ title: Blog
 ---
 <div id="content-left">
 <div id="images">
-<img id ="img" src="https://i1.wp.com/leblogduneprovinciale.com/wp-content/uploads/2019/09/Larchipel-de-la-Maddalena.j1.jpg?resize=1440%2C551&ssl=1">
+<img id ="img" src="https://i1.wp.com/leblogduneprovinciale.com/wp-content/uploads/2019/09/Madddalena-iles-.3.jpg?w=850&ssl=1">
 <img id ="img" src="https://i1.wp.com/leblogduneprovinciale.com/wp-content/uploads/2020/04/georgia-de-lotz-juQWcOiuuPE-unsplash.jpg?w=900&ssl=1">
 <img id ="img" src="https://i0.wp.com/leblogduneprovinciale.com/wp-content/uploads/2019/09/Maddalena-fleurs6.jpg?w=850&ssl=1">
 </div>

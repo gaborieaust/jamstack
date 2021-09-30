@@ -17,9 +17,7 @@ header {
     width: 100%;
     background-color: lightblue;
 }
-a{
-    color: darkslategrey;
-}
+
 #nav-top{
     margin-left: 0;
     width: 100%;
@@ -48,7 +46,7 @@ nav>ul {
     width: 1.5rem;
 }
 body {
-background-color: antiquewhite;
+background-color: floralwhite;
     /* body pour prendre la hauteur de l'écran*/
     margin: 0px;
     min-height: 100vh;
@@ -56,7 +54,7 @@ background-color: antiquewhite;
     flex-direction: column;
 }
 footer{
-
+    margin-left: 25px;
 }
 #text-ennui{
     margin: 0;
@@ -141,6 +139,12 @@ div.content {
 #text-blog{
 margin-left: 2px;
     justify-content: right;
+}
+#pic_acc {
+    object-position: left;
+    width: 75px;
+    height: 75px;
+    vertical-align: center;
 }
 
 
