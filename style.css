@@ -1,33 +1,153 @@
+
+
+
 h1{
     color: darkblue;
     text-align: center;
 }
+
+h2{
+    text-align: left;
+    color: darkblue;
+}
 header {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: lightblue;
+}
+a{
+    color: darkslategrey;
+}
+#nav-top{
+    margin-left: 0;
+    width: 100%;
 }
 
-
-nav{
-    min-height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+nav>ul {
+    line-height : 2;
     align-items: center;
-    background-color: cadetblue;
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+#ul-menu{
+    ;
 }
 
 
-li
-{
-    display:inline;
+@media all
+    and (max-width : 450px){ ul{flex-direction: column}
+
+}
+
+#span-menu-icon {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 body {
-    background-image: url(https://images.unsplash.com/photo-1541447237128-f4cac6138fbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=369&q=80);
+background-color: antiquewhite;
+    /* body pour prendre la hauteur de l'écran*/
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 footer{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    padding-top:50px;
-    height:50px;
+
+}
+#text-ennui{
+    margin: 0;
+    border: none;
+    text-align: justify;
+    color: blueviolet;
+
+}
+#img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+body{
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+    display: flex;
+}
+#intro{
+    display: flex;
+}
+
+#images{
+    display: flex;
+}
+
+.sidebar {
+
+    padding: 0;
+    width: 150px;
+    height: 100%;
+    overflow: auto;
+    background-color: snow;
+    float: right;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: snow;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: whitesmoke;
+    color: white;
+}
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 10px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+#about{
+    display: flex;
+}
+#content-left{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+#content-right{
+
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+#text-blog{
+margin-left: 2px;
+    justify-content: right;
+}
+
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }

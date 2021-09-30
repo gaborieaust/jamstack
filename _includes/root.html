@@ -10,16 +10,17 @@
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
+    <nav id ="nav-top" role="navigation">
+        <ul id = "ul-menu" style="display: flex">
             <li><a href="/">Accueil</a></li>
-            <li><a href="/about">A propos de moi</a></li>
-            <li><a href="/blog/page-0">Mes articles</a></li>
+            <li><a href="/about">Blog</a></li>
+            <li><a href="/blog/page-0">Style & Garde-robe</a></li>
+            <li><a href="/blog/page-0">Les rubriques</a></li>
         </ul>
     </nav>
-    <h1>Le blog des amateurs de big waves</h1>
-</header>
 
+</header>
+<h1>Le magazine des femmes positives</h1>
 
 <main>
     {{ content | safe }}
